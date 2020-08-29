@@ -4,7 +4,7 @@ def turn_count(board)
   if board[location] != " " && board[location] != ""
     turns_array.push(board[location])  #add to turn count
   end
-  #returns number of turns played
+  
   turns.size
 end
 
