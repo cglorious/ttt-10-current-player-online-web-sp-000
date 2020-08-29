@@ -1,6 +1,7 @@
 def turn_count(board)
   board.each do |position|
-  # != " " || ""
+    if board[location] != " " && board[location] != ""
+      #add to turn count
   end
   #returns number of turns played
 end
