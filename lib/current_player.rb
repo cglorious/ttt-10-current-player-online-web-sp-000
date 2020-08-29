@@ -4,8 +4,8 @@ def turn_count(board)
   if board[location] != " " && board[location] != ""
     turns_array.push(board[location])  #add to turn count
   end
-  
-  turns.size
+
+  turns_array.size
 end
 
 def current_player(board)
