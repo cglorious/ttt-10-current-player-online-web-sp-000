@@ -1,11 +1,11 @@
 def turn_count(board)
-  turns_array = []
+  counter = 0
   board.each do |position|
     if position == "X" || position == "O"
-    turns_array.push(position) 
+    counter += 1
     end
   end
-  turns_array.size
+  counter
 end
 
 def current_player(board)
