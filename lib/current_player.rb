@@ -1,7 +1,7 @@
 def turn_count(board)
   turns_array = []
   board.each do |position|
-    if board[location] != " " && board[location] != ""
+    if position != " " || position != ""
     turns_array.push(board[location])  #add to turn count
     end
   end
