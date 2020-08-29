@@ -2,7 +2,7 @@ def turn_count(board)
   turns_array = []
   board.each do |position|
     if position == "X" || position == "O"
-    turns_array.push(position)  #add to turn count
+    turns_array.push(position) 
     end
   end
   turns_array.size
